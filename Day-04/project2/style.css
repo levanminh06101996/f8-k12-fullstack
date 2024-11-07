@@ -1,0 +1,41 @@
+/* Common: BEGIN */
+* {
+    box-sizing: border-box;
+  }
+  
+  ul, ol {
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  html {
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+  }
+
+
+  .h1{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40.22px;
+    font-family: Merriweather;
+    color: #151B32;
+    
+  }
+  header, nav,form,ul,li{
+    display: inline-block;
+  }
+  
+  /* Commoen: END */
+  
+  /* Header: BEGIN */
+  
+  /* Header: END */
