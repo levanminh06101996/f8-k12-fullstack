@@ -1,0 +1,45 @@
+* {
+    font-family: Poppins ,sans-serif;
+}
+.content {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    
+    background-color: #f4ecec;
+}
+
+.content-main {
+    
+    gap: 22px
+    ;
+}
+
+.content-text {
+    display: flex;
+    
+    
+    p {
+    color: #5F5B53;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    }
+
+    span{
+        font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+
+    }
+}
+
+.content-paragrap {
+    margin-left: 36px;
+    margin-top: -20px;
+
+    p{
+        margin-top: 6px;
+    }
+}

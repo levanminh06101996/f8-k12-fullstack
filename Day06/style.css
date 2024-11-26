@@ -1,0 +1,13 @@
+a:hover {
+    outline-color: aqua;
+    outline-width: 4px;
+    outline-offset: 12px red;
+
+}
+ul>li {
+    list-style-type: none;   
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
