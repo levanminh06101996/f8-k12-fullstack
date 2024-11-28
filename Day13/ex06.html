@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				margin: 0;
+			}
+
+			.sale-infor {
+                height: 50px;
+				padding-top: 12px;
+				padding-bottom: 12px;
+				background-color: #000;
+				overflow: hidden;
+                position: relative;
+                margin-top: 100px;
+			}
+
+			p {
+                position: absolute;
+				color: #fff;
+				white-space: nowrap;
+				animation: scroll-text 5s ease-in-out infinite alternate;
+                
+			}
+
+			@keyframes scroll-text {
+				from {
+                    top: 0;
+                    right: -100%;
+				}
+				to {
+                    top: 0;
+                    right: 100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="sale-infor">
+			<p>Giảm giá tất cả các loại quần áo thu đông 50%, cho đơn giá tối thiểu 100k...</p>
+		</div>
+	</body>
+</html>
